@@ -168,7 +168,7 @@ def showResult(show):
       clean()
       messagebox.showinfo('Result','You scored '+str(int((score/totalQues)*100))+'%')
       Label(root,
-            text='Leaderboad',
+            text='Leaderboard',
             justify='center',
             font=('Arial',20,'italic')
             ).place(x=80,y=5)
